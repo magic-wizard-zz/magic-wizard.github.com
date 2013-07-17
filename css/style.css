@@ -47,6 +47,7 @@ h4 {
 }
 p, blockquote, figure {
 	margin-bottom: 1.4rem;
+	overflow: auto;
 }
 .sidebar {
 	font-size: .85rem;

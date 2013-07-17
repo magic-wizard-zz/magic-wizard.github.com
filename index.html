@@ -12,6 +12,22 @@
     <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+		<link rel="stylesheet" type="text/css" href="js/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+		});
+	</script>
+
 
 </head>
 <body>
@@ -30,6 +46,16 @@
 		
 		<p><span class="highlight">You might even decide</span> that you need an extra breakpoint for a given design and record that in sketch form; you can add that breakpoint to your graph. This is a cycle of discovery, learning, and revision.</p>
 
+		<p>
+			<a class="fancybox" href="images/1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/1_s.jpg" alt="" /></a>
+
+			<a class="fancybox" href="images/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="images/2_s.jpg" alt="" /></a>
+
+			<a class="fancybox" href="images/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="images/3_s.jpg" alt="" /></a>
+
+			<a class="fancybox" href="images/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="images/4_s.jpg" alt="" /></a>
+		</p>
+
 		<blockquote> To design is much more than simply to assemble, to order, or even to edit; it is to dignify, to dramatize, to persuade, and perhaps even to amuse.<footer>- Jean-luc Picard</footer></blockquote>
 
 		
@@ -43,7 +69,6 @@
 		<blockquote> To design is much more than simply to assemble, to order, or even to edit; it is to dignify, to dramatize, to persuade, and perhaps even to amuse.<footer>- Jean-luc Picard</footer></blockquote>
 
 		<p><span class="highlight">You might even decide</span> that you need an extra breakpoint for a given design and record that in sketch form; you can add that breakpoint to your graph. This is a cycle of discovery, learning, and revision.</p>
-
 		
 	</article>
 </div>
