@@ -4,49 +4,51 @@
   box-sizing: border-box; 
 }
 body {
-	font-size.5px;
+	font-size: 19px;
 	font-family: 'Noticia Text', Georgia, serif;
 	color: #333;
-	line-height: 160%;
+	line-height: 150%;
 	padding: 1rem;
-	border-top: 1rem solid #333;
-	border-bottom: 1rem solid #333;
+	border-top: 1rem solid #db4a39;
+	border-bottom: 1rem solid #db4a39;
 }
 a, a:visited {
-	color: #39b7da;
+	color: #3287c1;
 	text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'PT Sans', sans-serif;
 }
 h1 {
 	font-weight: bold;
-	font-size: 2.8rem;
-	margin-bottom: 1.1rem;
-	line-height: 2.5rem
+	font-size: 3.2rem;
+	margin-bottom: 1rem;
+	line-height: 3rem;
 }
 h2 {
-	font-size: 1.4rem;
-	line-height: 1.8rem;
-	margin-bottom: 1.5rem;
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	margin-bottom: 2.5rem;
 }
-h2:after {
+h3:after {
 	content: "";
 	height: 1px;
 	width: 100%;
 	display: block;
-	margin-top: 1.2rem;
-	margin-bottom: 2.5rem;
+	margin-top: .2rem;
+	margin-bottom: 1rem;
 	border-bottom: 1px solid #ccc;
 }
 h3 {
-	font-size: 1.5rem;
 	color: #db4a39;
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 }
 h4 {
 	color: #db4a39;
 	font-weight: bold;
 }
 p, blockquote, figure {
-	margin-bottom: 1.4rem;
+	margin-bottom: 1.6rem;
 	overflow: auto;
 }
 .sidebar {
@@ -61,7 +63,7 @@ p, blockquote, figure {
 }
 blockquote {
 	border-left: 5px solid #ccc;
-	padding-left: 1rem;
+	padding-left: 2rem;
 	color: #878787;
 	font-style: italic;
 }
@@ -69,22 +71,33 @@ blockquote footer {
 	font-style: normal;
 }
 
-
+.avatar {
+	float: right;
+}
+img.avatar {
+	width: 140px;
+	margin-left: 1rem;
+	margin-top: -12px;
+}
 .wrapper {
-	max-width: 650px;
+	max-width: 700px;
 	margin: 30px auto 0 auto;
 	overflow: show;
 }
 img {
 	float: left;
 }
-.avatar {
-	margin-left: -60px;
-	margin-top: -5px;
-}
+
 figure {
 	overflow: auto;
 }
 figure img {
 	width: 100%;
+}
+.fancy-wrap {
+	width: 110%;
+	margin-left: -5%;
+}
+.fancybox img {
+	width: 25%;
 }
