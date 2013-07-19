@@ -94,7 +94,7 @@ figure {
 figure img {
 	width: 100%;
 }
-.fancy-wrap {
+.fancy-wrap, figure {
 	width: 110%;
 	margin-left: -5%;
 }
