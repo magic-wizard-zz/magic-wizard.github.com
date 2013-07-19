@@ -30,21 +30,12 @@ h2 {
 	line-height: 2.2rem;
 	margin-bottom: 2.5rem;
 }
-h3:before {
-	content: "";
-	height: 1px;
-	width: 100%;
-	display: block;
-	margin-top: .2rem;
-	margin-bottom: .5rem;
-	border-top: 1px solid #ccc;
-}
 h3:after {
 	content: "";
 	height: 1px;
 	width: 100%;
 	display: block;
-	margin-top: .5rem;
+	margin-top: .2rem;
 	margin-bottom: 1rem;
 	border-bottom: 1px solid #ccc;
 }
@@ -72,7 +63,7 @@ p, blockquote, figure {
 }
 blockquote {
 	border-left: 5px solid #ccc;
-	padding-left: 2rem;
+	padding-left: 1rem;
 	color: #878787;
 	font-style: italic;
 }
@@ -84,9 +75,9 @@ blockquote footer {
 	float: right;
 }
 img.avatar {
-	width: 140px;
+	width: 150px;
 	margin-left: 1rem;
-	margin-top: -12px;
+	margin-top: -8px;
 }
 .wrapper {
 	max-width: 700px;
@@ -108,5 +99,7 @@ figure img {
 	margin-left: -5%;
 }
 .fancybox img {
-	width: 25%;
+	width: 23%;
+	margin: 0 1%;
+	border: 2px solid #eee;
 }
